@@ -1,0 +1,65 @@
+.footer{
+    background-color: gray;
+    /* color: white; */
+    /* font-family: 'Licorice', cursive; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: -10px;
+    margin-top: -4px;
+}
+.footer > .link-container{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 400px;
+}
+.footer > .logo img {
+    width: 180px;
+    height: 100%;
+    filter: opacity(80%);
+}
+.footer > .phone-hours-footer span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+.footer > .phone-hours-footer > .hours {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+.footer > .link-container > .portals{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+.footer > .link-container > .portals a{
+    /* font-family: 'Licorice', cursive; */
+    color: greenyellow;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer > .link-container > .portals a:hover{
+    color: black;
+    letter-spacing: 2px;
+}
+.footer > .social-media-icons {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer > .social-media-icons a{
+    font-size: 1.5em;
+    color: yellowgreen;
+    transition: 0.5s;
+}
+.footer > .social-media-icons a:hover{
+    color: hotpink;
+}
+.footer > .copyright{
+    font-size: 0.7em;
+    color: darkmagenta;
+}

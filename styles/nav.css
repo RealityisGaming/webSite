@@ -1,0 +1,121 @@
+.navigation-container {
+    /* background-image: url(../images/Banner\ main.jpg); */
+    padding: 79px 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Flexbox Container */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation-container > .link-container > .banner img{
+    background-image: url(../images/artsfon.com-55381.jpg);
+    padding: 100px;
+    height: 150px;
+    width: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Number and Hours */
+.navigation-container > .left-column {
+    display: flex;
+    align-items: center;
+}
+.navigation-container > .left-column > .phone-icon {
+    margin-right: 15px;
+}
+.navigation-container > .left-column > .phone-icon i {
+    font-size: 2em;
+}
+.navigation-container > .left-column > .phone-hours {
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-gap: 10px;
+    color: greenyellow;
+    font-family: 'Licorice', cursive;
+}
+.navigation-container > .left-column > .phone-hours > .hours{ 
+    font-size: 0.8em;
+}
+/* Navigation Links */
+.navigation-container > .link-container {
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 5px;
+width: 500px;
+}
+.navigation-container > .link-container > .banner{
+ background-image: url(../images/artsfon.com-55381.jpg);
+ padding: 100px;
+ height: 150px;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}   
+.link-container > .portals {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    /* width: 500px; */
+}
+.link-container > .portals a{
+    /* font-family: 'Licorice', cursive; */
+    color: Black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.link-container > .portals a:hover {
+    color: hotpink;
+    letter-spacing: 2px;
+}
+.link-container > .portals > .Homepage {
+    display: flex;
+}
+.link-container > .portals > .homepage {
+    display: flex;
+}
+.link-container > .portals > .Homepage > .homepage-icon {
+    font-size: 1em;
+}
+.link-container > .portals > .get-to-know-me {
+    display: flex;
+}
+.link-container > .portals > .about {
+    display: flex;
+}
+.link-container > .portals > .about > .about-icon{
+    font-size: 1em;
+}
+.link-container > .portals > .twitch {
+    display: flex;
+}
+.link-container > .portals > .twitch > .twitch-icon {
+    font-size: 1em;
+}
+.link-container > .portals > .youtube {
+    display: flex;
+}
+.link-container > .portals > .youtube > .yt-icon {
+    font-size: 1em;
+}
+.link-container > .portals > .tiktok {
+    display: flex;
+}
+.link-container > .portals > .tiktok > .tt-icon i {
+    font-size: 1em;
+}
+/* Right Column Styles */
+.navigation-container > .right-column{
+    display: flex;
+    align-items: center;
+    color: greenyellow;
+}
+.navigation-container > .right-column > .address-icon i {
+    margin-left: 15px;
+    font-size: 2em;
+    color: white;
+}

@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+    background-image: linear-gradient(to left, white, #9400d3);
+}
+h1 , h2 {
+    /* font-family: 'Licorice', cursive; */
+    font-size: 26px;
+    text-decoration: underline;
+    color: greenyellow;
+}
+.footer {
+    background-image: linear-gradient(to left, white, #9400d3);
+}
+/* h1, h2, h2... gives style to mulitple headings at the same time */

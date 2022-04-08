@@ -1,0 +1,68 @@
+/* Hero Class */
+.hero {
+    background-image: url(../images/banner.webp);
+    padding: 100px;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero > .top-heading {
+    /* background-color: Purple; */
+    width: 225px;
+    border-radius: 2px;
+}
+.hero > .bottom-heading {
+    background-color: #8F00FF;
+    color: black;
+    /* padding: 1px 20px; */
+    margin-top: 15px;
+    width: 115px;
+    border-radius: 2px;
+ }
+ /* Features */
+.features{
+    height: 400px;
+    background-image: url(../images/2059252-1152x864-[DesktopNexus.com].jpg);
+    background-color: orange;
+    border-top: 10px solid #ffff;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Island Moments', cursive;
+    font-size: 1.5m;
+    box-shadow: inset 0px -26px 79px 25px rgb(0 0 0 / 58%);
+}
+.features > .columns-container{
+    width: 2000px;
+    display: flex;
+    justify-content: space-between; 
+    color: yellowgreen;
+}
+.features > .columns-container > .column{
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    /* font-size: 0.75em; */
+    width: 250px;
+    height: 150px;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+.features > .columns-container > .column:hover {
+    letter-spacing: 2px;
+    color: black;
+    border-bottom: 5px solid #660000;
+}
+.features > .columns-container > .column :nth-child(1) {
+    letter-spacing: 1px;
+}
+.features > .columns-container > .column :nth-last-child(2):hover {
+    letter-spacing: 3px;
+}
+.features > .columns-container > .column :nth-child(3):hover {
+    letter-spacing: 1px;
+}
